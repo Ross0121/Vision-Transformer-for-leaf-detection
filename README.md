@@ -1,16 +1,13 @@
-# Vision-Transformer-for-leaf-disease-detection
-*Developed a custom ShiftedPatchTokenization layer to enhance the standard patch extraction process by including diagonally shifted patches, improving spatial information capture.
+# Vision Transformer for Leaf Disease Detection
 
-*Enhanced the multi-head attention mechanism with a learnable temperature parameter (MultiHeadAttentionLSA) and a diagonal attention mask, improving the model's attention focus.
+1. Developed a custom `ShiftedPatchTokenization` layer to enhance the standard patch extraction process by including diagonally shifted patches, improving spatial information capture.
+2. Enhanced the multi-head attention mechanism with a learnable temperature parameter (`MultiHeadAttentionLSA`) and a diagonal attention mask, improving the model's attention focus.
+3. Achieved around 90%+ accuracy on apple, grape, corn, and tomato disease classification from the Plant Village dataset with up to 5 classes.
+4. Training time was efficient, taking only 2-3 minutes per epoch.
+5. Deployed the model on an app with a user-friendly interface.
 
-*Achieved around 90% + accuracy on apple, grape, corn, and tomato disease classification from plant village dataset with up to 5 classes.
+## Results for Disease Detection
+![Disease Detection Results](https://github.com/user-attachments/assets/38dc1645-3483-4bc3-b182-31e231018878)
 
-*Training time was efficient, taking only 2-3 minutes per epoch.
-
-*Deployed model on an app with user friendly interface.
-
-![20 07 2024_19 05 09_REC](https://github.com/user-attachments/assets/38dc1645-3483-4bc3-b182-31e231018878)
-Results for disease detection.
-
-![20 07 2024_19 04 34_REC](https://github.com/user-attachments/assets/ce7604ba-d8ac-4fad-9d0e-d58a13495aae)
-client side app view.
+## Client Side App View
+![Client Side App View](https://github.com/user-attachments/assets/ce7604ba-d8ac-4fad-9d0e-d58a13495aae)
